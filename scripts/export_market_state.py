@@ -3,7 +3,6 @@ import json
 import os
 import pathlib
 import re
-import ssl
 import subprocess
 from datetime import datetime, timezone
 from decimal import Decimal
@@ -19,8 +18,8 @@ TARGET = "invest-public-api.tbank.ru"
 HOST = "invest-public-api.tbank.ru"
 
 INSTRUMENTS = {
-    "lukoil_zo31": {"isin": "RU000A1059R0", "label": "ЛУКОЙЛ ЗО-31"},
-    "ofz_26247": {"isin": "RU000A108EF8", "label": "ОФЗ 26247"},
+    "lukoil_zo31": {"isin": "RU000A1059R0", "label": "ЛУКОЙЛ ЗО-31", "preferred_class_codes": ["TQCB"]},
+    "ofz_26247": {"isin": "RU000A108EF8", "label": "ОФЗ 26247", "preferred_class_codes": ["TQOB"]},
 }
 
 
@@ -32,6 +31,30 @@ def quote_level(level):
     return {
         "price": float(quotation_to_decimal(level.price)),
         "quantity": int(level.quantity),
+    }
+
+
+def choose_tradable_instrument(instruments, preferred_class_codes):
+    for instrument in instruments:
+        if (
+            getattr(instrument, "api_trade_available_flag", False)
+            and getattr(instrument, "class_code", "") in preferred_class_codes
+        ):
+            return instrument
+    for instrument in instruments:
+        if getattr(instrument, "api_trade_available_flag", False):
+            return instrument
+    return instruments[0]
+
+
+def instrument_snapshot(instrument):
+    return {
+        "name": instrument.name,
+        "ticker": instrument.ticker,
+        "figi": instrument.figi,
+        "uid": instrument.uid,
+        "class_code": getattr(instrument, "class_code", None),
+        "api_trade_available_flag": getattr(instrument, "api_trade_available_flag", None),
     }
 
 
@@ -87,14 +110,15 @@ async def main() -> None:
                 result["instruments"][key] = {**meta, "status": "not_found"}
                 continue
 
-            instrument = found.instruments[0]
+            instrument = choose_tradable_instrument(
+                found.instruments,
+                meta.get("preferred_class_codes", []),
+            )
             state = {
                 **meta,
                 "status": "ok",
-                "name": instrument.name,
-                "ticker": instrument.ticker,
-                "figi": instrument.figi,
-                "uid": instrument.uid,
+                **instrument_snapshot(instrument),
+                "candidates": [instrument_snapshot(item) for item in found.instruments],
             }
 
             try:
