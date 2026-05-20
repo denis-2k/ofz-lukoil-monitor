@@ -1,44 +1,63 @@
 {
-  "updated_at": "2026-05-20T08:31:03.580110+00:00",
+  "updated_at": "2026-05-20T09:08:45.004637+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "instruments": {
     "lukoil_zo31": {
       "isin": "RU000A1059R0",
       "label": "ЛУКОЙЛ ЗО-31",
+      "preferred_class_codes": [
+        "TQCB"
+      ],
       "status": "ok",
       "name": "Лукойл ЗО-31",
       "ticker": "RU000A1059R0",
       "figi": "TCS00A1059R0",
       "uid": "87ab418d-79ce-40f0-ac53-d5aa92d2dcf5",
+      "class_code": "TQCB",
+      "api_trade_available_flag": true,
+      "candidates": [
+        {
+          "name": "Лукойл ЗО-31",
+          "ticker": "RU000A1059R0",
+          "figi": "TCS00A1059R0",
+          "uid": "87ab418d-79ce-40f0-ac53-d5aa92d2dcf5",
+          "class_code": "TQCB",
+          "api_trade_available_flag": true
+        }
+      ],
       "bids": [
         {
-          "price": 86.4944,
+          "price": 86.4974,
           "quantity": 2
+        },
+        {
+          "price": 86.4973,
+          "quantity": 1
         },
         {
           "price": 86.4942,
           "quantity": 1
         },
         {
-          "price": 86.284,
+          "price": 85.9761,
+          "quantity": 3
+        },
+        {
+          "price": 85.9503,
           "quantity": 2
         },
         {
-          "price": 86.257,
+          "price": 85.821,
           "quantity": 1
         },
         {
-          "price": 86.05,
-          "quantity": 2
-        },
-        {
-          "price": 85.6372,
+          "price": 85.4593,
           "quantity": 4
         },
         {
           "price": 85.2002,
-          "quantity": 31
+          "quantity": 32
         },
         {
           "price": 85.2001,
@@ -47,24 +66,24 @@
         {
           "price": 85.2,
           "quantity": 5500
-        },
-        {
-          "price": 84.5102,
-          "quantity": 1
         }
       ],
       "asks": [
+        {
+          "price": 86.6799,
+          "quantity": 3
+        },
         {
           "price": 86.68,
           "quantity": 1
         },
         {
-          "price": 86.7,
-          "quantity": 1001
+          "price": 86.6999,
+          "quantity": 255
         },
         {
-          "price": 87.0,
-          "quantity": 255
+          "price": 86.7,
+          "quantity": 1001
         },
         {
           "price": 87.49,
@@ -79,43 +98,170 @@
           "quantity": 1
         },
         {
+          "price": 89.95,
+          "quantity": 1
+        },
+        {
           "price": 89.9995,
           "quantity": 84
         },
         {
           "price": 89.9999,
           "quantity": 1
-        },
-        {
-          "price": 90.0,
-          "quantity": 2
         }
       ],
       "best_bid": {
-        "price": 86.4944,
+        "price": 86.4974,
         "quantity": 2
       },
       "best_ask": {
-        "price": 86.68,
-        "quantity": 1
+        "price": 86.6799,
+        "quantity": 3
       },
-      "spread": 0.1856,
-      "spread_pct": 0.2146
+      "spread": 0.1825,
+      "spread_pct": 0.211
     },
     "ofz_26247": {
       "isin": "RU000A108EF8",
       "label": "ОФЗ 26247",
+      "preferred_class_codes": [
+        "TQOB"
+      ],
       "status": "ok",
       "name": "ОФЗ 26247",
-      "ticker": "RU000A108EF8",
-      "figi": "TCS50A108EF8",
-      "uid": "9231ab95-60a1-4c8d-afae-9ba8d0e6830f",
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "spread": null,
-      "spread_pct": null
+      "ticker": "SU26247RMFS5",
+      "figi": "BBG01MVSHPP3",
+      "uid": "031fc073-aeee-4b5f-8d31-1056b0400e04",
+      "class_code": "TQOB",
+      "api_trade_available_flag": true,
+      "candidates": [
+        {
+          "name": "ОФЗ 26247",
+          "ticker": "RU000A108EF8",
+          "figi": "TCS50A108EF8",
+          "uid": "9231ab95-60a1-4c8d-afae-9ba8d0e6830f",
+          "class_code": "A53",
+          "api_trade_available_flag": false
+        },
+        {
+          "name": "ОФЗ 26247",
+          "ticker": "SU26247RMFS5",
+          "figi": "BBG01MVSHPP3",
+          "uid": "031fc073-aeee-4b5f-8d31-1056b0400e04",
+          "class_code": "TQOB",
+          "api_trade_available_flag": true
+        },
+        {
+          "name": "ОФЗ 26247",
+          "ticker": "RU000A108EF8",
+          "figi": "TCS60A108EF8",
+          "uid": "516227f1-a642-437b-a750-3bdcc8e7a751",
+          "class_code": "A36",
+          "api_trade_available_flag": false
+        },
+        {
+          "name": "ОФЗ 26247",
+          "ticker": "RU000A108EF8",
+          "figi": "TCS80A108EF8",
+          "uid": "791c49eb-e1a2-4039-90b5-0eb561365233",
+          "class_code": "000",
+          "api_trade_available_flag": false
+        }
+      ],
+      "bids": [
+        {
+          "price": 88.195,
+          "quantity": 10
+        },
+        {
+          "price": 88.194,
+          "quantity": 100
+        },
+        {
+          "price": 88.193,
+          "quantity": 1
+        },
+        {
+          "price": 88.192,
+          "quantity": 2499
+        },
+        {
+          "price": 88.191,
+          "quantity": 6
+        },
+        {
+          "price": 88.19,
+          "quantity": 2168
+        },
+        {
+          "price": 88.189,
+          "quantity": 32
+        },
+        {
+          "price": 88.188,
+          "quantity": 23
+        },
+        {
+          "price": 88.186,
+          "quantity": 38
+        },
+        {
+          "price": 88.185,
+          "quantity": 13
+        }
+      ],
+      "asks": [
+        {
+          "price": 88.198,
+          "quantity": 9768
+        },
+        {
+          "price": 88.2,
+          "quantity": 38910
+        },
+        {
+          "price": 88.248,
+          "quantity": 226
+        },
+        {
+          "price": 88.249,
+          "quantity": 705
+        },
+        {
+          "price": 88.25,
+          "quantity": 17482
+        },
+        {
+          "price": 88.27,
+          "quantity": 500
+        },
+        {
+          "price": 88.289,
+          "quantity": 40
+        },
+        {
+          "price": 88.29,
+          "quantity": 1
+        },
+        {
+          "price": 88.299,
+          "quantity": 23831
+        },
+        {
+          "price": 88.3,
+          "quantity": 100
+        }
+      ],
+      "best_bid": {
+        "price": 88.195,
+        "quantity": 10
+      },
+      "best_ask": {
+        "price": 88.198,
+        "quantity": 9768
+      },
+      "spread": 0.003,
+      "spread_pct": 0.0034
     }
   }
 }
