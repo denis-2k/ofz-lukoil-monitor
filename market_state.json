@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T01:35:04.208048+00:00",
+  "updated_at": "2026-06-25T05:48:12.184884+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "usd_rub": 75.05,
@@ -41,13 +41,101 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 85.1353,
+          "quantity": 1
+        },
+        {
+          "price": 84.6946,
+          "quantity": 3
+        },
+        {
+          "price": 84.6945,
+          "quantity": 1
+        },
+        {
+          "price": 84.6943,
+          "quantity": 1
+        },
+        {
+          "price": 84.694,
+          "quantity": 2
+        },
+        {
+          "price": 84.16,
+          "quantity": 1
+        },
+        {
+          "price": 83.6601,
+          "quantity": 1
+        },
+        {
+          "price": 83.66,
+          "quantity": 1
+        },
+        {
+          "price": 83.4517,
+          "quantity": 1
+        },
+        {
+          "price": 83.2668,
+          "quantity": 1
+        }
+      ],
+      "asks": [
+        {
+          "price": 87.644,
+          "quantity": 3
+        },
+        {
+          "price": 87.6441,
+          "quantity": 1
+        },
+        {
+          "price": 87.6442,
+          "quantity": 1
+        },
+        {
+          "price": 87.6456,
+          "quantity": 2
+        },
+        {
+          "price": 87.8793,
+          "quantity": 2
+        },
+        {
+          "price": 87.8794,
+          "quantity": 4
+        },
+        {
+          "price": 87.8954,
+          "quantity": 1
+        },
+        {
+          "price": 87.9,
+          "quantity": 4
+        },
+        {
+          "price": 88.0338,
+          "quantity": 3
+        },
+        {
+          "price": 88.0398,
+          "quantity": 1
+        }
+      ],
+      "best_bid": {
+        "price": 85.1353,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 87.644,
+        "quantity": 3
+      },
+      "orderbook_ts": "2026-06-25T05:48:15.890035+00:00",
+      "spread": 2.5087,
+      "spread_pct": 2.9467
     },
     "ofz_26247": {
       "isin": "RU000A108EF8",
@@ -124,13 +212,101 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 83.952,
+          "quantity": 717
+        },
+        {
+          "price": 83.951,
+          "quantity": 458
+        },
+        {
+          "price": 83.904,
+          "quantity": 1
+        },
+        {
+          "price": 83.903,
+          "quantity": 16
+        },
+        {
+          "price": 83.902,
+          "quantity": 23
+        },
+        {
+          "price": 83.901,
+          "quantity": 42
+        },
+        {
+          "price": 83.9,
+          "quantity": 8
+        },
+        {
+          "price": 83.899,
+          "quantity": 30
+        },
+        {
+          "price": 83.898,
+          "quantity": 102
+        },
+        {
+          "price": 83.895,
+          "quantity": 17
+        }
+      ],
+      "asks": [
+        {
+          "price": 83.997,
+          "quantity": 1
+        },
+        {
+          "price": 83.998,
+          "quantity": 472
+        },
+        {
+          "price": 83.999,
+          "quantity": 203
+        },
+        {
+          "price": 84.0,
+          "quantity": 100
+        },
+        {
+          "price": 84.014,
+          "quantity": 35
+        },
+        {
+          "price": 84.015,
+          "quantity": 10
+        },
+        {
+          "price": 84.027,
+          "quantity": 46
+        },
+        {
+          "price": 84.028,
+          "quantity": 540
+        },
+        {
+          "price": 84.029,
+          "quantity": 1779
+        },
+        {
+          "price": 84.03,
+          "quantity": 5006
+        }
+      ],
+      "best_bid": {
+        "price": 83.952,
+        "quantity": 717
+      },
+      "best_ask": {
+        "price": 83.997,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:12.443879+00:00",
+      "spread": 0.045,
+      "spread_pct": 0.0536
     },
     "lukoil_zo26": {
       "key": "lukoil_zo26",
@@ -217,13 +393,93 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 99.5001,
+          "quantity": 1
+        },
+        {
+          "price": 99.5,
+          "quantity": 50
+        },
+        {
+          "price": 98.5001,
+          "quantity": 1
+        },
+        {
+          "price": 98.5,
+          "quantity": 12
+        },
+        {
+          "price": 98.2,
+          "quantity": 2
+        },
+        {
+          "price": 97.4987,
+          "quantity": 2
+        },
+        {
+          "price": 95.0952,
+          "quantity": 5
+        },
+        {
+          "price": 95.0951,
+          "quantity": 19
+        }
+      ],
+      "asks": [
+        {
+          "price": 100.0999,
+          "quantity": 1
+        },
+        {
+          "price": 100.1,
+          "quantity": 1
+        },
+        {
+          "price": 100.6679,
+          "quantity": 5
+        },
+        {
+          "price": 100.668,
+          "quantity": 2
+        },
+        {
+          "price": 100.6684,
+          "quantity": 1
+        },
+        {
+          "price": 101.9978,
+          "quantity": 4
+        },
+        {
+          "price": 101.9979,
+          "quantity": 5
+        },
+        {
+          "price": 101.998,
+          "quantity": 2
+        },
+        {
+          "price": 102.4238,
+          "quantity": 6
+        },
+        {
+          "price": 102.4239,
+          "quantity": 8
+        }
+      ],
+      "best_bid": {
+        "price": 99.5001,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 100.0999,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:03.565705+00:00",
+      "spread": 0.5998,
+      "spread_pct": 0.6028
     },
     "lukoil_zo27": {
       "key": "lukoil_zo27",
@@ -302,13 +558,89 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 96.1408,
+          "quantity": 1
+        },
+        {
+          "price": 96.1407,
+          "quantity": 2
+        },
+        {
+          "price": 96.1406,
+          "quantity": 1
+        },
+        {
+          "price": 96.1402,
+          "quantity": 1
+        },
+        {
+          "price": 96.1249,
+          "quantity": 1
+        },
+        {
+          "price": 95.6081,
+          "quantity": 1
+        },
+        {
+          "price": 95.3501,
+          "quantity": 4
+        },
+        {
+          "price": 95.35,
+          "quantity": 12
+        },
+        {
+          "price": 95.2683,
+          "quantity": 2
+        },
+        {
+          "price": 95.03,
+          "quantity": 1
+        }
+      ],
+      "asks": [
+        {
+          "price": 99.9394,
+          "quantity": 1
+        },
+        {
+          "price": 99.9395,
+          "quantity": 4
+        },
+        {
+          "price": 99.944,
+          "quantity": 3
+        },
+        {
+          "price": 99.99,
+          "quantity": 4
+        },
+        {
+          "price": 99.9999,
+          "quantity": 1
+        },
+        {
+          "price": 101.9499,
+          "quantity": 2
+        },
+        {
+          "price": 101.95,
+          "quantity": 2
+        }
+      ],
+      "best_bid": {
+        "price": 96.1408,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 99.9394,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:20.361227+00:00",
+      "spread": 3.7986,
+      "spread_pct": 3.9511
     },
     "lukoil_zo30": {
       "key": "lukoil_zo30",
@@ -387,13 +719,93 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 90.9716,
+          "quantity": 1
+        },
+        {
+          "price": 90.9692,
+          "quantity": 3
+        },
+        {
+          "price": 90.8586,
+          "quantity": 1
+        },
+        {
+          "price": 89.7001,
+          "quantity": 1
+        },
+        {
+          "price": 89.7,
+          "quantity": 1
+        },
+        {
+          "price": 89.1201,
+          "quantity": 4
+        },
+        {
+          "price": 89.12,
+          "quantity": 20
+        },
+        {
+          "price": 88.8773,
+          "quantity": 1
+        },
+        {
+          "price": 88.2355,
+          "quantity": 2
+        },
+        {
+          "price": 88.1455,
+          "quantity": 2
+        }
+      ],
+      "asks": [
+        {
+          "price": 93.6301,
+          "quantity": 2
+        },
+        {
+          "price": 93.6302,
+          "quantity": 2
+        },
+        {
+          "price": 93.6308,
+          "quantity": 2
+        },
+        {
+          "price": 93.6455,
+          "quantity": 3
+        },
+        {
+          "price": 93.99,
+          "quantity": 1
+        },
+        {
+          "price": 95.5001,
+          "quantity": 12
+        },
+        {
+          "price": 95.59,
+          "quantity": 1
+        },
+        {
+          "price": 96.4436,
+          "quantity": 6
+        }
+      ],
+      "best_bid": {
+        "price": 90.9716,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 93.6301,
+        "quantity": 2
+      },
+      "orderbook_ts": "2026-06-25T05:48:21.289968+00:00",
+      "spread": 2.6585,
+      "spread_pct": 2.9223
     },
     "nornickel_zo26": {
       "key": "nornickel_zo26",
@@ -464,13 +876,89 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 99.8436,
+          "quantity": 1
+        },
+        {
+          "price": 98.6559,
+          "quantity": 1
+        },
+        {
+          "price": 98.6558,
+          "quantity": 3
+        },
+        {
+          "price": 98.6545,
+          "quantity": 1
+        },
+        {
+          "price": 98.6516,
+          "quantity": 6
+        },
+        {
+          "price": 98.6515,
+          "quantity": 58
+        },
+        {
+          "price": 98.6,
+          "quantity": 50
+        },
+        {
+          "price": 98.4,
+          "quantity": 60
+        },
+        {
+          "price": 96.7719,
+          "quantity": 2
+        },
+        {
+          "price": 96.0433,
+          "quantity": 1
+        }
+      ],
+      "asks": [
+        {
+          "price": 100.9342,
+          "quantity": 1
+        },
+        {
+          "price": 100.9343,
+          "quantity": 6
+        },
+        {
+          "price": 100.9353,
+          "quantity": 1
+        },
+        {
+          "price": 100.9401,
+          "quantity": 8
+        },
+        {
+          "price": 101.1,
+          "quantity": 3
+        },
+        {
+          "price": 102.0,
+          "quantity": 2
+        },
+        {
+          "price": 103.0,
+          "quantity": 1
+        }
+      ],
+      "best_bid": {
+        "price": 99.8436,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 100.9342,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:14.272365+00:00",
+      "spread": 1.0906,
+      "spread_pct": 1.0923
     },
     "rzd_zo26_2": {
       "key": "rzd_zo26_2",
@@ -541,13 +1029,93 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 98.36,
+          "quantity": 1
+        },
+        {
+          "price": 98.35,
+          "quantity": 8
+        },
+        {
+          "price": 98.31,
+          "quantity": 1
+        },
+        {
+          "price": 98.2,
+          "quantity": 3
+        },
+        {
+          "price": 98.17,
+          "quantity": 2
+        },
+        {
+          "price": 97.94,
+          "quantity": 1
+        },
+        {
+          "price": 97.5,
+          "quantity": 2
+        },
+        {
+          "price": 97.0,
+          "quantity": 1
+        },
+        {
+          "price": 96.32,
+          "quantity": 5
+        },
+        {
+          "price": 96.25,
+          "quantity": 1
+        }
+      ],
+      "asks": [
+        {
+          "price": 98.66,
+          "quantity": 2
+        },
+        {
+          "price": 98.67,
+          "quantity": 1
+        },
+        {
+          "price": 98.7,
+          "quantity": 2
+        },
+        {
+          "price": 98.8,
+          "quantity": 10
+        },
+        {
+          "price": 98.99,
+          "quantity": 243
+        },
+        {
+          "price": 100.0,
+          "quantity": 1
+        },
+        {
+          "price": 102.96,
+          "quantity": 25
+        },
+        {
+          "price": 102.97,
+          "quantity": 17
+        }
+      ],
+      "best_bid": {
+        "price": 98.36,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 98.66,
+        "quantity": 2
+      },
+      "orderbook_ts": "2026-06-25T05:45:29.470753+00:00",
+      "spread": 0.3,
+      "spread_pct": 0.305
     },
     "rzd_zo28_1": {
       "key": "rzd_zo28_1",
@@ -610,13 +1178,69 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 87.52,
+          "quantity": 3
+        },
+        {
+          "price": 87.51,
+          "quantity": 1
+        },
+        {
+          "price": 87.5,
+          "quantity": 1
+        },
+        {
+          "price": 87.01,
+          "quantity": 1
+        },
+        {
+          "price": 87.0,
+          "quantity": 1
+        },
+        {
+          "price": 85.0,
+          "quantity": 1
+        }
+      ],
+      "asks": [
+        {
+          "price": 88.09,
+          "quantity": 3
+        },
+        {
+          "price": 88.1,
+          "quantity": 3
+        },
+        {
+          "price": 88.15,
+          "quantity": 3
+        },
+        {
+          "price": 88.17,
+          "quantity": 11
+        },
+        {
+          "price": 89.89,
+          "quantity": 2
+        },
+        {
+          "price": 89.9,
+          "quantity": 1
+        }
+      ],
+      "best_bid": {
+        "price": 87.52,
+        "quantity": 3
+      },
+      "best_ask": {
+        "price": 88.09,
+        "quantity": 3
+      },
+      "orderbook_ts": "2026-06-25T05:40:11.138929+00:00",
+      "spread": 0.57,
+      "spread_pct": 0.6513
     },
     "rzd_zo28_3": {
       "key": "rzd_zo28_3",
@@ -687,13 +1311,77 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 84.41,
+          "quantity": 2
+        },
+        {
+          "price": 84.4,
+          "quantity": 1
+        },
+        {
+          "price": 84.14,
+          "quantity": 2
+        },
+        {
+          "price": 84.0,
+          "quantity": 2
+        },
+        {
+          "price": 83.1,
+          "quantity": 1
+        },
+        {
+          "price": 83.0,
+          "quantity": 1
+        },
+        {
+          "price": 81.15,
+          "quantity": 3
+        },
+        {
+          "price": 81.14,
+          "quantity": 5
+        },
+        {
+          "price": 81.12,
+          "quantity": 15
+        }
+      ],
+      "asks": [
+        {
+          "price": 86.29,
+          "quantity": 1
+        },
+        {
+          "price": 86.3,
+          "quantity": 1
+        },
+        {
+          "price": 87.98,
+          "quantity": 2
+        },
+        {
+          "price": 87.99,
+          "quantity": 1
+        },
+        {
+          "price": 88.0,
+          "quantity": 1
+        }
+      ],
+      "best_bid": {
+        "price": 84.41,
+        "quantity": 2
+      },
+      "best_ask": {
+        "price": 86.29,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:02.120258+00:00",
+      "spread": 1.88,
+      "spread_pct": 2.2272
     },
     "polus_zo28": {
       "key": "polus_zo28",
@@ -772,13 +1460,97 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 89.085,
+          "quantity": 1
+        },
+        {
+          "price": 89.0849,
+          "quantity": 1
+        },
+        {
+          "price": 89.0839,
+          "quantity": 1
+        },
+        {
+          "price": 89.08,
+          "quantity": 1
+        },
+        {
+          "price": 89.0,
+          "quantity": 2
+        },
+        {
+          "price": 88.812,
+          "quantity": 2
+        },
+        {
+          "price": 88.4,
+          "quantity": 1
+        },
+        {
+          "price": 87.9634,
+          "quantity": 1
+        },
+        {
+          "price": 87.812,
+          "quantity": 4
+        },
+        {
+          "price": 87.8119,
+          "quantity": 2
+        }
+      ],
+      "asks": [
+        {
+          "price": 91.7999,
+          "quantity": 1
+        },
+        {
+          "price": 91.8764,
+          "quantity": 2
+        },
+        {
+          "price": 94.4586,
+          "quantity": 1
+        },
+        {
+          "price": 94.4587,
+          "quantity": 6
+        },
+        {
+          "price": 94.4603,
+          "quantity": 5
+        },
+        {
+          "price": 94.5,
+          "quantity": 1
+        },
+        {
+          "price": 95.1999,
+          "quantity": 1
+        },
+        {
+          "price": 95.2,
+          "quantity": 1
+        },
+        {
+          "price": 96.17,
+          "quantity": 2
+        }
+      ],
+      "best_bid": {
+        "price": 89.085,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 91.7999,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:22.605158+00:00",
+      "spread": 2.7149,
+      "spread_pct": 3.0475
     },
     "sovcomflot_zo28": {
       "key": "sovcomflot_zo28",
@@ -857,13 +1629,101 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 93.8136,
+          "quantity": 1
+        },
+        {
+          "price": 93.8135,
+          "quantity": 1
+        },
+        {
+          "price": 93.8087,
+          "quantity": 1
+        },
+        {
+          "price": 93.2134,
+          "quantity": 1
+        },
+        {
+          "price": 93.2133,
+          "quantity": 5
+        },
+        {
+          "price": 93.2122,
+          "quantity": 1
+        },
+        {
+          "price": 93.15,
+          "quantity": 14
+        },
+        {
+          "price": 91.5713,
+          "quantity": 1
+        },
+        {
+          "price": 91.3173,
+          "quantity": 2
+        },
+        {
+          "price": 91.2458,
+          "quantity": 1
+        }
+      ],
+      "asks": [
+        {
+          "price": 94.9752,
+          "quantity": 1
+        },
+        {
+          "price": 94.9753,
+          "quantity": 6
+        },
+        {
+          "price": 94.9756,
+          "quantity": 4
+        },
+        {
+          "price": 94.976,
+          "quantity": 4
+        },
+        {
+          "price": 94.9767,
+          "quantity": 1
+        },
+        {
+          "price": 94.9793,
+          "quantity": 1
+        },
+        {
+          "price": 94.9821,
+          "quantity": 1
+        },
+        {
+          "price": 94.9963,
+          "quantity": 20
+        },
+        {
+          "price": 95.5012,
+          "quantity": 20
+        },
+        {
+          "price": 98.48,
+          "quantity": 35
+        }
+      ],
+      "best_bid": {
+        "price": 93.8136,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 94.9752,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:23.536004+00:00",
+      "spread": 1.1616,
+      "spread_pct": 1.2382
     },
     "gtlk_zo27": {
       "key": "gtlk_zo27",
@@ -950,13 +1810,101 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 95.5019,
+          "quantity": 1
+        },
+        {
+          "price": 95.5018,
+          "quantity": 1
+        },
+        {
+          "price": 95.5017,
+          "quantity": 3
+        },
+        {
+          "price": 95.5015,
+          "quantity": 1
+        },
+        {
+          "price": 95.5013,
+          "quantity": 23
+        },
+        {
+          "price": 95.5005,
+          "quantity": 1
+        },
+        {
+          "price": 94.3,
+          "quantity": 1
+        },
+        {
+          "price": 94.1391,
+          "quantity": 1
+        },
+        {
+          "price": 94.03,
+          "quantity": 3
+        },
+        {
+          "price": 94.0296,
+          "quantity": 2
+        }
+      ],
+      "asks": [
+        {
+          "price": 97.7644,
+          "quantity": 5
+        },
+        {
+          "price": 97.7645,
+          "quantity": 1
+        },
+        {
+          "price": 97.7646,
+          "quantity": 10
+        },
+        {
+          "price": 98.79,
+          "quantity": 1
+        },
+        {
+          "price": 98.8,
+          "quantity": 6
+        },
+        {
+          "price": 98.95,
+          "quantity": 1
+        },
+        {
+          "price": 99.2882,
+          "quantity": 1
+        },
+        {
+          "price": 99.45,
+          "quantity": 1
+        },
+        {
+          "price": 99.4898,
+          "quantity": 1
+        },
+        {
+          "price": 99.49,
+          "quantity": 4
+        }
+      ],
+      "best_bid": {
+        "price": 95.5019,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 97.7644,
+        "quantity": 5
+      },
+      "orderbook_ts": "2026-06-25T05:48:23.610939+00:00",
+      "spread": 2.2625,
+      "spread_pct": 2.3691
     },
     "gtlk_zo28": {
       "key": "gtlk_zo28",
@@ -1051,13 +1999,101 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 91.6086,
+          "quantity": 3
+        },
+        {
+          "price": 91.6085,
+          "quantity": 3
+        },
+        {
+          "price": 91.608,
+          "quantity": 1
+        },
+        {
+          "price": 91.6079,
+          "quantity": 1
+        },
+        {
+          "price": 91.5888,
+          "quantity": 1
+        },
+        {
+          "price": 91.0201,
+          "quantity": 2
+        },
+        {
+          "price": 91.02,
+          "quantity": 2
+        },
+        {
+          "price": 90.8543,
+          "quantity": 2
+        },
+        {
+          "price": 90.0902,
+          "quantity": 1
+        },
+        {
+          "price": 90.0901,
+          "quantity": 6
+        }
+      ],
+      "asks": [
+        {
+          "price": 96.7032,
+          "quantity": 4
+        },
+        {
+          "price": 96.7033,
+          "quantity": 3
+        },
+        {
+          "price": 96.706,
+          "quantity": 1
+        },
+        {
+          "price": 96.7085,
+          "quantity": 1
+        },
+        {
+          "price": 96.7162,
+          "quantity": 6
+        },
+        {
+          "price": 96.7814,
+          "quantity": 2
+        },
+        {
+          "price": 96.8,
+          "quantity": 1
+        },
+        {
+          "price": 97.03,
+          "quantity": 1
+        },
+        {
+          "price": 97.0378,
+          "quantity": 19
+        },
+        {
+          "price": 97.185,
+          "quantity": 13
+        }
+      ],
+      "best_bid": {
+        "price": 91.6086,
+        "quantity": 3
+      },
+      "best_ask": {
+        "price": 96.7032,
+        "quantity": 4
+      },
+      "orderbook_ts": "2026-06-25T05:48:26.793312+00:00",
+      "spread": 5.0946,
+      "spread_pct": 5.5613
     },
     "gtlk_zo29": {
       "key": "gtlk_zo29",
@@ -1120,20 +2156,127 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [],
-      "asks": [],
-      "best_bid": null,
-      "best_ask": null,
-      "orderbook_ts": "1970-01-01T00:00:00+00:00",
-      "spread": null,
-      "spread_pct": null
+      "bids": [
+        {
+          "price": 88.0331,
+          "quantity": 1
+        },
+        {
+          "price": 88.033,
+          "quantity": 2
+        },
+        {
+          "price": 88.0327,
+          "quantity": 4
+        },
+        {
+          "price": 88.0321,
+          "quantity": 1
+        },
+        {
+          "price": 88.0,
+          "quantity": 1
+        },
+        {
+          "price": 87.1111,
+          "quantity": 2
+        },
+        {
+          "price": 87.111,
+          "quantity": 4
+        },
+        {
+          "price": 87.11,
+          "quantity": 1
+        },
+        {
+          "price": 86.873,
+          "quantity": 2
+        },
+        {
+          "price": 86.8729,
+          "quantity": 4
+        }
+      ],
+      "asks": [
+        {
+          "price": 89.7199,
+          "quantity": 1
+        },
+        {
+          "price": 89.72,
+          "quantity": 1
+        },
+        {
+          "price": 90.1791,
+          "quantity": 5
+        },
+        {
+          "price": 90.1792,
+          "quantity": 3
+        },
+        {
+          "price": 90.1793,
+          "quantity": 4
+        },
+        {
+          "price": 90.1797,
+          "quantity": 10
+        },
+        {
+          "price": 90.18,
+          "quantity": 1
+        },
+        {
+          "price": 90.2402,
+          "quantity": 1
+        },
+        {
+          "price": 92.1994,
+          "quantity": 6
+        },
+        {
+          "price": 92.1995,
+          "quantity": 3
+        }
+      ],
+      "best_bid": {
+        "price": 88.0331,
+        "quantity": 1
+      },
+      "best_ask": {
+        "price": 89.7199,
+        "quantity": 1
+      },
+      "orderbook_ts": "2026-06-25T05:48:27.560281+00:00",
+      "spread": 1.6868,
+      "spread_pct": 1.9161
     }
   },
   "screening": {
     "method": "Ранжирование показывает, какие замещающие облигации стоит открыть в брокере и проверить лимиткой. Это не команда на покупку.",
     "usd_rub": 75.05,
-    "ofz_dirty_bid_rub": null,
+    "ofz_dirty_bid_rub": 849.59,
     "candidates": [
+      {
+        "key": "lukoil_zo31",
+        "label": "ЛУКОЙЛ ЗО-31",
+        "isin": "RU000A1059R0",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 87.644,
+        "ask_qty": 3,
+        "bid": 85.1353,
+        "bid_qty": 1,
+        "spread_pct": 2.9467,
+        "dirty_ask_rub": 66227.12,
+        "units_per_100_ofz": 1.2828,
+        "maturity_date": "2031-10-26",
+        "years_to_maturity": 5.33,
+        "score": 55.3,
+        "verdict": "ждать: широкий спред"
+      },
       {
         "key": "lukoil_zo26",
         "label": "ЛУКОЙЛ ЗО-26",
@@ -1141,36 +2284,17 @@
         "issuer_risk": 1,
         "risk_label": "низкий/умеренный",
         "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
+        "ask": 100.0999,
+        "ask_qty": 1,
+        "bid": 99.5001,
+        "bid_qty": 1,
+        "spread_pct": 0.6028,
+        "dirty_ask_rub": 75660.08,
+        "units_per_100_ofz": 1.1229,
         "maturity_date": "2026-11-02",
         "years_to_maturity": 0.35,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "lukoil_zo27",
-        "label": "ЛУКОЙЛ ЗО-27",
-        "isin": "RU000A1059P4",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2027-04-26",
-        "years_to_maturity": 0.83,
-        "score": null,
-        "verdict": "нет данных"
+        "score": 52.9,
+        "verdict": "проверить глубину"
       },
       {
         "key": "lukoil_zo30",
@@ -1179,112 +2303,17 @@
         "issuer_risk": 1,
         "risk_label": "низкий/умеренный",
         "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
+        "ask": 93.6301,
+        "ask_qty": 2,
+        "bid": 90.9716,
+        "bid_qty": 1,
+        "spread_pct": 2.9223,
+        "dirty_ask_rub": 70673.16,
+        "units_per_100_ofz": 1.2021,
         "maturity_date": "2030-05-06",
         "years_to_maturity": 3.86,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "lukoil_zo31",
-        "label": "ЛУКОЙЛ ЗО-31",
-        "isin": "RU000A1059R0",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2031-10-26",
-        "years_to_maturity": 5.33,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "nornickel_zo26",
-        "label": "Норникель ЗО26-Д",
-        "isin": "RU000A107C67",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2026-10-27",
-        "years_to_maturity": 0.34,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "rzd_zo26_2",
-        "label": "РЖД ЗО26-2-Р",
-        "isin": "RU000A1084Q0",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2026-09-10",
-        "years_to_maturity": 0.21,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "rzd_zo28_1",
-        "label": "РЖД ЗО28-1-Р",
-        "isin": "RU000A1089X5",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2028-03-02",
-        "years_to_maturity": 1.68,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "rzd_zo28_3",
-        "label": "РЖД ЗО28-3-Р",
-        "isin": "RU000A1089U1",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2028-09-18",
-        "years_to_maturity": 2.23,
-        "score": null,
-        "verdict": "нет данных"
+        "score": 51.68,
+        "verdict": "ждать: широкий спред"
       },
       {
         "key": "polus_zo28",
@@ -1293,171 +2322,17 @@
         "issuer_risk": 1,
         "risk_label": "низкий/умеренный",
         "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
+        "ask": 91.7999,
+        "ask_qty": 1,
+        "bid": 89.085,
+        "bid_qty": 1,
+        "spread_pct": 3.0475,
+        "dirty_ask_rub": 69383.65,
+        "units_per_100_ofz": 1.2245,
         "maturity_date": "2028-10-14",
         "years_to_maturity": 2.3,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "sovcomflot_zo28",
-        "label": "Совкомфлот ЗО-2028",
-        "isin": "RU000A105A87",
-        "issuer_risk": 2,
-        "risk_label": "умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2028-04-26",
-        "years_to_maturity": 1.83,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "gtlk_zo27",
-        "label": "ГТЛК ЗО27-Д",
-        "isin": "RU000A107B43",
-        "issuer_risk": 3,
-        "risk_label": "повышенный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2027-03-10",
-        "years_to_maturity": 0.7,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "gtlk_zo28",
-        "label": "ГТЛК ЗО28-Д",
-        "isin": "RU000A107CX7",
-        "issuer_risk": 3,
-        "risk_label": "повышенный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2028-02-26",
-        "years_to_maturity": 1.67,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "gtlk_zo29",
-        "label": "ГТЛК ЗО29-Д",
-        "isin": "RU000A107D58",
-        "issuer_risk": 3,
-        "risk_label": "повышенный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2029-02-27",
-        "years_to_maturity": 2.67,
-        "score": null,
-        "verdict": "нет данных"
-      }
-    ],
-    "top": [
-      {
-        "key": "lukoil_zo26",
-        "label": "ЛУКОЙЛ ЗО-26",
-        "isin": "RU000A1059N9",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2026-11-02",
-        "years_to_maturity": 0.35,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "lukoil_zo27",
-        "label": "ЛУКОЙЛ ЗО-27",
-        "isin": "RU000A1059P4",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2027-04-26",
-        "years_to_maturity": 0.83,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "lukoil_zo30",
-        "label": "ЛУКОЙЛ ЗО-30",
-        "isin": "RU000A1059Q2",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2030-05-06",
-        "years_to_maturity": 3.86,
-        "score": null,
-        "verdict": "нет данных"
-      },
-      {
-        "key": "lukoil_zo31",
-        "label": "ЛУКОЙЛ ЗО-31",
-        "isin": "RU000A1059R0",
-        "issuer_risk": 1,
-        "risk_label": "низкий/умеренный",
-        "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
-        "maturity_date": "2031-10-26",
-        "years_to_maturity": 5.33,
-        "score": null,
-        "verdict": "нет данных"
+        "score": 51.52,
+        "verdict": "ждать: широкий спред"
       },
       {
         "key": "nornickel_zo26",
@@ -1466,17 +2341,266 @@
         "issuer_risk": 1,
         "risk_label": "низкий/умеренный",
         "status": "ok",
-        "ask": null,
-        "ask_qty": null,
-        "bid": null,
-        "bid_qty": null,
-        "spread_pct": null,
-        "dirty_ask_rub": null,
-        "units_per_100_ofz": null,
+        "ask": 100.9342,
+        "ask_qty": 1,
+        "bid": 99.8436,
+        "bid_qty": 1,
+        "spread_pct": 1.0923,
+        "dirty_ask_rub": 76095.6,
+        "units_per_100_ofz": 1.1165,
         "maturity_date": "2026-10-27",
         "years_to_maturity": 0.34,
-        "score": null,
-        "verdict": "нет данных"
+        "score": 51.1,
+        "verdict": "проверить глубину"
+      },
+      {
+        "key": "sovcomflot_zo28",
+        "label": "Совкомфлот ЗО-2028",
+        "isin": "RU000A105A87",
+        "issuer_risk": 2,
+        "risk_label": "умеренный",
+        "status": "ok",
+        "ask": 94.9752,
+        "ask_qty": 1,
+        "bid": 93.8136,
+        "bid_qty": 1,
+        "spread_pct": 1.2382,
+        "dirty_ask_rub": 71760.71,
+        "units_per_100_ofz": 1.1839,
+        "maturity_date": "2028-04-26",
+        "years_to_maturity": 1.83,
+        "score": 49.71,
+        "verdict": "проверить глубину"
+      },
+      {
+        "key": "rzd_zo28_1",
+        "label": "РЖД ЗО28-1-Р",
+        "isin": "RU000A1089X5",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 88.09,
+        "ask_qty": 3,
+        "bid": 87.52,
+        "bid_qty": 3,
+        "spread_pct": 0.6513,
+        "dirty_ask_rub": 90179.37,
+        "units_per_100_ofz": 0.9421,
+        "maturity_date": "2028-03-02",
+        "years_to_maturity": 1.68,
+        "score": 44.71,
+        "verdict": "рассмотреть лимитку"
+      },
+      {
+        "key": "gtlk_zo29",
+        "label": "ГТЛК ЗО29-Д",
+        "isin": "RU000A107D58",
+        "issuer_risk": 3,
+        "risk_label": "повышенный",
+        "status": "ok",
+        "ask": 89.7199,
+        "ask_qty": 1,
+        "bid": 88.0331,
+        "bid_qty": 1,
+        "spread_pct": 1.9161,
+        "dirty_ask_rub": 68414.0,
+        "units_per_100_ofz": 1.2418,
+        "maturity_date": "2029-02-27",
+        "years_to_maturity": 2.67,
+        "score": 43.95,
+        "verdict": "ждать: широкий спред"
+      },
+      {
+        "key": "lukoil_zo27",
+        "label": "ЛУКОЙЛ ЗО-27",
+        "isin": "RU000A1059P4",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 99.9394,
+        "ask_qty": 1,
+        "bid": 96.1408,
+        "bid_qty": 1,
+        "spread_pct": 3.9511,
+        "dirty_ask_rub": 75355.0,
+        "units_per_100_ofz": 1.1275,
+        "maturity_date": "2027-04-26",
+        "years_to_maturity": 0.83,
+        "score": 43.29,
+        "verdict": "ждать: широкий спред"
+      },
+      {
+        "key": "rzd_zo28_3",
+        "label": "РЖД ЗО28-3-Р",
+        "isin": "RU000A1089U1",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 86.29,
+        "ask_qty": 1,
+        "bid": 84.41,
+        "bid_qty": 2,
+        "spread_pct": 2.2272,
+        "dirty_ask_rub": 88318.06,
+        "units_per_100_ofz": 0.962,
+        "maturity_date": "2028-09-18",
+        "years_to_maturity": 2.23,
+        "score": 40.82,
+        "verdict": "ждать: широкий спред"
+      },
+      {
+        "key": "rzd_zo26_2",
+        "label": "РЖД ЗО26-2-Р",
+        "isin": "RU000A1084Q0",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 98.66,
+        "ask_qty": 2,
+        "bid": 98.36,
+        "bid_qty": 1,
+        "spread_pct": 0.305,
+        "dirty_ask_rub": 100919.86,
+        "units_per_100_ofz": 0.8418,
+        "maturity_date": "2026-09-10",
+        "years_to_maturity": 0.21,
+        "score": 39.87,
+        "verdict": "рассмотреть лимитку"
+      },
+      {
+        "key": "gtlk_zo27",
+        "label": "ГТЛК ЗО27-Д",
+        "isin": "RU000A107B43",
+        "issuer_risk": 3,
+        "risk_label": "повышенный",
+        "status": "ok",
+        "ask": 97.7644,
+        "ask_qty": 5,
+        "bid": 95.5019,
+        "bid_qty": 1,
+        "spread_pct": 2.3691,
+        "dirty_ask_rub": 74399.62,
+        "units_per_100_ofz": 1.1419,
+        "maturity_date": "2027-03-10",
+        "years_to_maturity": 0.7,
+        "score": 37.51,
+        "verdict": "ждать: широкий спред"
+      },
+      {
+        "key": "gtlk_zo28",
+        "label": "ГТЛК ЗО28-Д",
+        "isin": "RU000A107CX7",
+        "issuer_risk": 3,
+        "risk_label": "повышенный",
+        "status": "ok",
+        "ask": 96.7032,
+        "ask_qty": 4,
+        "bid": 91.6086,
+        "bid_qty": 3,
+        "spread_pct": 5.5613,
+        "dirty_ask_rub": 73776.55,
+        "units_per_100_ofz": 1.1516,
+        "maturity_date": "2028-02-26",
+        "years_to_maturity": 1.67,
+        "score": 28.65,
+        "verdict": "ждать: широкий спред"
+      }
+    ],
+    "top": [
+      {
+        "key": "lukoil_zo31",
+        "label": "ЛУКОЙЛ ЗО-31",
+        "isin": "RU000A1059R0",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 87.644,
+        "ask_qty": 3,
+        "bid": 85.1353,
+        "bid_qty": 1,
+        "spread_pct": 2.9467,
+        "dirty_ask_rub": 66227.12,
+        "units_per_100_ofz": 1.2828,
+        "maturity_date": "2031-10-26",
+        "years_to_maturity": 5.33,
+        "score": 55.3,
+        "verdict": "ждать: широкий спред"
+      },
+      {
+        "key": "lukoil_zo26",
+        "label": "ЛУКОЙЛ ЗО-26",
+        "isin": "RU000A1059N9",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 100.0999,
+        "ask_qty": 1,
+        "bid": 99.5001,
+        "bid_qty": 1,
+        "spread_pct": 0.6028,
+        "dirty_ask_rub": 75660.08,
+        "units_per_100_ofz": 1.1229,
+        "maturity_date": "2026-11-02",
+        "years_to_maturity": 0.35,
+        "score": 52.9,
+        "verdict": "проверить глубину"
+      },
+      {
+        "key": "lukoil_zo30",
+        "label": "ЛУКОЙЛ ЗО-30",
+        "isin": "RU000A1059Q2",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 93.6301,
+        "ask_qty": 2,
+        "bid": 90.9716,
+        "bid_qty": 1,
+        "spread_pct": 2.9223,
+        "dirty_ask_rub": 70673.16,
+        "units_per_100_ofz": 1.2021,
+        "maturity_date": "2030-05-06",
+        "years_to_maturity": 3.86,
+        "score": 51.68,
+        "verdict": "ждать: широкий спред"
+      },
+      {
+        "key": "polus_zo28",
+        "label": "Полюс ЗО28-Д",
+        "isin": "RU000A108P79",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 91.7999,
+        "ask_qty": 1,
+        "bid": 89.085,
+        "bid_qty": 1,
+        "spread_pct": 3.0475,
+        "dirty_ask_rub": 69383.65,
+        "units_per_100_ofz": 1.2245,
+        "maturity_date": "2028-10-14",
+        "years_to_maturity": 2.3,
+        "score": 51.52,
+        "verdict": "ждать: широкий спред"
+      },
+      {
+        "key": "nornickel_zo26",
+        "label": "Норникель ЗО26-Д",
+        "isin": "RU000A107C67",
+        "issuer_risk": 1,
+        "risk_label": "низкий/умеренный",
+        "status": "ok",
+        "ask": 100.9342,
+        "ask_qty": 1,
+        "bid": 99.8436,
+        "bid_qty": 1,
+        "spread_pct": 1.0923,
+        "dirty_ask_rub": 76095.6,
+        "units_per_100_ofz": 1.1165,
+        "maturity_date": "2026-10-27",
+        "years_to_maturity": 0.34,
+        "score": 51.1,
+        "verdict": "проверить глубину"
       }
     ]
   }
