@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T20:24:29.036061+00:00",
+  "updated_at": "2026-07-25T21:12:49.009090+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "usd_rub": 77.97,
@@ -124,101 +124,13 @@
       "amortization_flag": false,
       "buy_available_flag": true,
       "sell_available_flag": true,
-      "bids": [
-        {
-          "price": 83.871,
-          "quantity": 17
-        },
-        {
-          "price": 83.87,
-          "quantity": 13
-        },
-        {
-          "price": 83.869,
-          "quantity": 6
-        },
-        {
-          "price": 83.8,
-          "quantity": 10
-        },
-        {
-          "price": 83.701,
-          "quantity": 1
-        },
-        {
-          "price": 83.699,
-          "quantity": 50
-        },
-        {
-          "price": 83.631,
-          "quantity": 2
-        },
-        {
-          "price": 83.63,
-          "quantity": 50
-        },
-        {
-          "price": 83.629,
-          "quantity": 2
-        },
-        {
-          "price": 83.628,
-          "quantity": 20
-        }
-      ],
-      "asks": [
-        {
-          "price": 84.37,
-          "quantity": 190
-        },
-        {
-          "price": 84.371,
-          "quantity": 1
-        },
-        {
-          "price": 84.496,
-          "quantity": 60
-        },
-        {
-          "price": 84.518,
-          "quantity": 209
-        },
-        {
-          "price": 84.531,
-          "quantity": 31
-        },
-        {
-          "price": 85.0,
-          "quantity": 50
-        },
-        {
-          "price": 85.005,
-          "quantity": 3
-        },
-        {
-          "price": 88.0,
-          "quantity": 1000
-        },
-        {
-          "price": 89.0,
-          "quantity": 1
-        },
-        {
-          "price": 92.0,
-          "quantity": 119
-        }
-      ],
-      "best_bid": {
-        "price": 83.871,
-        "quantity": 17
-      },
-      "best_ask": {
-        "price": 84.37,
-        "quantity": 190
-      },
-      "orderbook_ts": "2026-07-25T20:24:16.369427+00:00",
-      "spread": 0.499,
-      "spread_pct": 0.595
+      "bids": [],
+      "asks": [],
+      "best_bid": null,
+      "best_ask": null,
+      "orderbook_ts": "1970-01-01T00:00:00+00:00",
+      "spread": null,
+      "spread_pct": null
     },
     "lukoil_zo26": {
       "key": "lukoil_zo26",
@@ -1220,7 +1132,7 @@
   "screening": {
     "method": "Ранжирование показывает, какие замещающие облигации стоит открыть в брокере и проверить лимиткой. Это не команда на покупку.",
     "usd_rub": 77.97,
-    "ofz_dirty_bid_rub": 859.52,
+    "ofz_dirty_bid_rub": null,
     "candidates": [
       {
         "key": "lukoil_zo26",
