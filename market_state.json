@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T16:44:16.068899+00:00",
+  "updated_at": "2026-08-09T17:14:00.037403+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "usd_rub": 82.6675,
@@ -127,11 +127,19 @@
       "bids": [
         {
           "price": 84.254,
-          "quantity": 67
+          "quantity": 1
         },
         {
           "price": 84.253,
-          "quantity": 2424
+          "quantity": 2352
+        },
+        {
+          "price": 84.245,
+          "quantity": 2
+        },
+        {
+          "price": 84.21,
+          "quantity": 1
         },
         {
           "price": 84.003,
@@ -139,7 +147,7 @@
         },
         {
           "price": 84.002,
-          "quantity": 50
+          "quantity": 55
         },
         {
           "price": 84.0,
@@ -150,30 +158,34 @@
           "quantity": 2592
         },
         {
-          "price": 83.572,
-          "quantity": 15
-        },
-        {
           "price": 83.571,
           "quantity": 20
         },
         {
           "price": 83.495,
           "quantity": 301
-        },
-        {
-          "price": 83.494,
-          "quantity": 2670
         }
       ],
       "asks": [
         {
+          "price": 84.341,
+          "quantity": 33
+        },
+        {
+          "price": 84.342,
+          "quantity": 15
+        },
+        {
           "price": 84.348,
-          "quantity": 1
+          "quantity": 5
         },
         {
           "price": 84.349,
           "quantity": 1
+        },
+        {
+          "price": 84.497,
+          "quantity": 3
         },
         {
           "price": 84.498,
@@ -182,10 +194,6 @@
         {
           "price": 84.53,
           "quantity": 92
-        },
-        {
-          "price": 84.578,
-          "quantity": 85
         },
         {
           "price": 84.669,
@@ -198,27 +206,19 @@
         {
           "price": 87.021,
           "quantity": 8
-        },
-        {
-          "price": 89.999,
-          "quantity": 17
-        },
-        {
-          "price": 90.0,
-          "quantity": 757
         }
       ],
       "best_bid": {
         "price": 84.254,
-        "quantity": 67
-      },
-      "best_ask": {
-        "price": 84.348,
         "quantity": 1
       },
-      "orderbook_ts": "2026-08-09T16:42:19.770155+00:00",
-      "spread": 0.094,
-      "spread_pct": 0.1116
+      "best_ask": {
+        "price": 84.341,
+        "quantity": 33
+      },
+      "orderbook_ts": "2026-08-09T17:13:39.079720+00:00",
+      "spread": 0.087,
+      "spread_pct": 0.1033
     },
     "lukoil_zo26": {
       "key": "lukoil_zo26",
