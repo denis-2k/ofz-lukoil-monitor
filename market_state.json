@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T15:48:35.391998+00:00",
+  "updated_at": "2026-08-15T15:59:44.311195+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "usd_rub": 84.69,
@@ -126,16 +126,20 @@
       "sell_available_flag": true,
       "bids": [
         {
-          "price": 83.246,
-          "quantity": 6
-        },
-        {
-          "price": 83.219,
+          "price": 83.225,
           "quantity": 1
         },
         {
+          "price": 83.214,
+          "quantity": 1
+        },
+        {
+          "price": 83.201,
+          "quantity": 20
+        },
+        {
           "price": 83.2,
-          "quantity": 84
+          "quantity": 53
         },
         {
           "price": 83.177,
@@ -160,20 +164,16 @@
         {
           "price": 83.049,
           "quantity": 99
-        },
-        {
-          "price": 83.02,
-          "quantity": 6
         }
       ],
       "asks": [
         {
-          "price": 83.4,
-          "quantity": 46
+          "price": 83.48,
+          "quantity": 5
         },
         {
           "price": 83.496,
-          "quantity": 99
+          "quantity": 94
         },
         {
           "price": 83.497,
@@ -209,16 +209,16 @@
         }
       ],
       "best_bid": {
-        "price": 83.246,
-        "quantity": 6
+        "price": 83.225,
+        "quantity": 1
       },
       "best_ask": {
-        "price": 83.4,
-        "quantity": 46
+        "price": 83.48,
+        "quantity": 5
       },
-      "orderbook_ts": "2026-08-15T15:46:45.289433+00:00",
-      "spread": 0.154,
-      "spread_pct": 0.185
+      "orderbook_ts": "2026-08-15T15:59:40.804590+00:00",
+      "spread": 0.255,
+      "spread_pct": 0.3064
     },
     "lukoil_zo26": {
       "key": "lukoil_zo26",
@@ -1220,7 +1220,7 @@
   "screening": {
     "method": "Ранжирование показывает, какие замещающие облигации стоит открыть в брокере и проверить лимиткой. Это не команда на покупку.",
     "usd_rub": 84.69,
-    "ofz_dirty_bid_rub": 860.32,
+    "ofz_dirty_bid_rub": 860.11,
     "candidates": [
       {
         "key": "lukoil_zo26",
