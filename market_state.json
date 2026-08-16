@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T17:33:53.321090+00:00",
+  "updated_at": "2026-08-16T17:49:49.211235+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "usd_rub": 84.69,
@@ -126,8 +126,12 @@
       "sell_available_flag": true,
       "bids": [
         {
+          "price": 83.252,
+          "quantity": 30
+        },
+        {
           "price": 83.251,
-          "quantity": 21
+          "quantity": 1
         },
         {
           "price": 83.25,
@@ -160,20 +164,12 @@
         {
           "price": 83.23,
           "quantity": 266
-        },
-        {
-          "price": 83.224,
-          "quantity": 8
         }
       ],
       "asks": [
         {
-          "price": 83.482,
-          "quantity": 3
-        },
-        {
           "price": 83.483,
-          "quantity": 89
+          "quantity": 67
         },
         {
           "price": 83.492,
@@ -206,17 +202,21 @@
         {
           "price": 83.58,
           "quantity": 100
+        },
+        {
+          "price": 83.64,
+          "quantity": 10
         }
       ],
       "best_bid": {
-        "price": 83.251,
-        "quantity": 21
+        "price": 83.252,
+        "quantity": 30
       },
       "best_ask": {
-        "price": 83.482,
-        "quantity": 3
+        "price": 83.483,
+        "quantity": 67
       },
-      "orderbook_ts": "2026-08-16T17:31:43.994407+00:00",
+      "orderbook_ts": "2026-08-16T17:49:29.465130+00:00",
       "spread": 0.231,
       "spread_pct": 0.2775
     },
@@ -1220,7 +1220,7 @@
   "screening": {
     "method": "Ранжирование показывает, какие замещающие облигации стоит открыть в брокере и проверить лимиткой. Это не команда на покупку.",
     "usd_rub": 84.69,
-    "ofz_dirty_bid_rub": 860.37,
+    "ofz_dirty_bid_rub": 860.38,
     "candidates": [
       {
         "key": "lukoil_zo26",
