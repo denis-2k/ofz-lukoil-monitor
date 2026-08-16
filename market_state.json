@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T12:34:33.993135+00:00",
+  "updated_at": "2026-08-16T13:12:15.628274+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "usd_rub": 84.69,
@@ -126,8 +126,16 @@
       "sell_available_flag": true,
       "bids": [
         {
-          "price": 83.232,
+          "price": 83.235,
           "quantity": 20
+        },
+        {
+          "price": 83.234,
+          "quantity": 11
+        },
+        {
+          "price": 83.233,
+          "quantity": 4
         },
         {
           "price": 83.231,
@@ -156,32 +164,20 @@
         {
           "price": 83.2,
           "quantity": 50
-        },
-        {
-          "price": 83.155,
-          "quantity": 53
-        },
-        {
-          "price": 83.154,
-          "quantity": 1
         }
       ],
       "asks": [
         {
           "price": 83.479,
-          "quantity": 10
+          "quantity": 5
         },
         {
           "price": 83.48,
-          "quantity": 4
-        },
-        {
-          "price": 83.481,
-          "quantity": 60
+          "quantity": 44
         },
         {
           "price": 83.482,
-          "quantity": 114
+          "quantity": 100
         },
         {
           "price": 83.483,
@@ -206,19 +202,23 @@
         {
           "price": 83.577,
           "quantity": 194
+        },
+        {
+          "price": 83.578,
+          "quantity": 4
         }
       ],
       "best_bid": {
-        "price": 83.232,
+        "price": 83.235,
         "quantity": 20
       },
       "best_ask": {
         "price": 83.479,
-        "quantity": 10
+        "quantity": 5
       },
-      "orderbook_ts": "2026-08-16T12:34:26.268069+00:00",
-      "spread": 0.247,
-      "spread_pct": 0.2968
+      "orderbook_ts": "2026-08-16T13:10:49.886701+00:00",
+      "spread": 0.244,
+      "spread_pct": 0.2931
     },
     "lukoil_zo26": {
       "key": "lukoil_zo26",
@@ -1220,7 +1220,7 @@
   "screening": {
     "method": "Ранжирование показывает, какие замещающие облигации стоит открыть в брокере и проверить лимиткой. Это не команда на покупку.",
     "usd_rub": 84.69,
-    "ofz_dirty_bid_rub": 860.18,
+    "ofz_dirty_bid_rub": 860.21,
     "candidates": [
       {
         "key": "lukoil_zo26",
