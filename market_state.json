@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T11:46:28.420182+00:00",
+  "updated_at": "2026-08-16T11:58:31.170550+00:00",
   "source": "t-invest-api",
   "status": "ok",
   "usd_rub": 84.69,
@@ -126,16 +126,16 @@
       "sell_available_flag": true,
       "bids": [
         {
+          "price": 83.25,
+          "quantity": 2
+        },
+        {
           "price": 83.243,
-          "quantity": 20
+          "quantity": 21
         },
         {
           "price": 83.242,
           "quantity": 11
-        },
-        {
-          "price": 83.241,
-          "quantity": 1
         },
         {
           "price": 83.239,
@@ -169,7 +169,7 @@
       "asks": [
         {
           "price": 83.483,
-          "quantity": 107
+          "quantity": 105
         },
         {
           "price": 83.492,
@@ -182,6 +182,10 @@
         {
           "price": 83.518,
           "quantity": 1
+        },
+        {
+          "price": 83.576,
+          "quantity": 200
         },
         {
           "price": 83.577,
@@ -202,23 +206,19 @@
         {
           "price": 83.589,
           "quantity": 4
-        },
-        {
-          "price": 83.59,
-          "quantity": 200
         }
       ],
       "best_bid": {
-        "price": 83.243,
-        "quantity": 20
+        "price": 83.25,
+        "quantity": 2
       },
       "best_ask": {
         "price": 83.483,
-        "quantity": 107
+        "quantity": 105
       },
-      "orderbook_ts": "2026-08-16T11:46:11.265887+00:00",
-      "spread": 0.24,
-      "spread_pct": 0.2883
+      "orderbook_ts": "2026-08-16T11:57:27.479312+00:00",
+      "spread": 0.233,
+      "spread_pct": 0.2799
     },
     "lukoil_zo26": {
       "key": "lukoil_zo26",
@@ -1220,7 +1220,7 @@
   "screening": {
     "method": "Ранжирование показывает, какие замещающие облигации стоит открыть в брокере и проверить лимиткой. Это не команда на покупку.",
     "usd_rub": 84.69,
-    "ofz_dirty_bid_rub": 860.29,
+    "ofz_dirty_bid_rub": 860.36,
     "candidates": [
       {
         "key": "lukoil_zo26",
